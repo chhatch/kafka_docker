@@ -1,0 +1,13 @@
+{
+  "name": "kafka_docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "startKafka": "docker-compose up -d",
+    "stopKafka": "docker-compose down"
+  },
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  }
+}
